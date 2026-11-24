@@ -103,3 +103,8 @@ body.yc-page .yc-news-header h2{font-size:24px!important;letter-spacing:-.03em}
     letter-spacing: -0.04em;
   }
 }
+
+/* 대학원 제목과 첫 번째 강의 사이 간격 조절 */
+.graduate-section-heading + .lecture-flex-container {
+  margin-top: 24px !important;
+}
